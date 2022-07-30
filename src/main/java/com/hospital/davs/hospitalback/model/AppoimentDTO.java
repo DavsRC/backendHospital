@@ -18,7 +18,7 @@ import static javax.persistence.GenerationType.AUTO;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class appoimentDTO {
+public class AppoimentDTO {
     @Id
     @GeneratedValue(strategy = AUTO)
     private Long id;
